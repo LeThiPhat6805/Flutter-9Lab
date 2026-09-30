@@ -1,0 +1,28 @@
+name: lab_9
+description: Flutter project for 9Lab – 9 Flutter Lab Exercises.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Lab 5: Xylophone
+  audioplayers: ^6.0.0
+  # Lab 9: Clima
+  http: ^1.2.0
+  geolocator: ^12.0.0
+
+flutter:
+  uses-material-design: true
+  # Lab 5: Uncomment and add audio assets when available
+  # assets:
+  #   - assets/note1.wav
+  #   - assets/note2.wav
+  #   - assets/note3.wav
+  #   - assets/note4.wav
+  #   - assets/note5.wav
+  #   - assets/note6.wav
+  #   - assets/note7.wav
